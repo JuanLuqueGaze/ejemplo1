@@ -28,7 +28,7 @@ USE IEEE.NUMERIC_STD.ALL;
 
 ENTITY sumador IS
       PORT (
-            num1 : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+            num1 : IN STD_LOGIC_VECTOR(3 DOWNTO 0); --Puertos de entrada/salida
             num2 : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
             numout : OUT STD_LOGIC_VECTOR(3 DOWNTO 0)
 
