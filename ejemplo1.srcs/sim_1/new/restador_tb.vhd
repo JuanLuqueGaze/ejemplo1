@@ -33,12 +33,12 @@ BEGIN
 
     data_process : PROCESS
     BEGIN
-        num3 <= "0010";
+        num3 <= "1000";
         num4 <= "0101";
         WAIT FOR speriod;
-        num4 <= "1101";
+        num4 <= "1000";
         WAIT FOR speriod;
-        num4 <= "1111";
+        num4 <= "1001";
         WAIT FOR speriod;
         num4 <= "0100";
         WAIT FOR speriod;
