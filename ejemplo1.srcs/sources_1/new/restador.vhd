@@ -21,5 +21,5 @@ BEGIN
     num3u <= unsigned(num3);
     num4u <= unsigned(num4);
     numoutr <= STD_LOGIC_VECTOR(numoutur);
-    numoutur <= num3u + num4u;
+    numoutur <= num3u - num4u;
 END Behavioral;
