@@ -20,7 +20,7 @@ ARCHITECTURE Behavioral OF sumador_tb IS
     END COMPONENT;
 
     SIGNAL num1, num2, numout : STD_LOGIC_VECTOR(3 DOWNTO 0);
-    CONSTANT period : TIME := 10 ns;
+    CONSTANT speriod : TIME := 10 ns;
 BEGIN
 
     DUT : sumador
@@ -35,13 +35,13 @@ BEGIN
     BEGIN
         num1 <= "0010";
         num2 <= "0101";
-        WAIT FOR period;
+        WAIT FOR speriod;
         num2 <= "1101";
-        WAIT FOR period;
+        WAIT FOR speriod;
         num2 <= "1111";
-        WAIT FOR period;
+        WAIT FOR speriod;
         num2 <= "0100";
-        WAIT FOR period;
+        WAIT FOR speriod;
         FINISH;
 
     END PROCESS;
