@@ -13,13 +13,13 @@ ENTITY restador IS
 END restador;
 
 ARCHITECTURE Behavioral OF restador IS
-    SIGNAL num3u : signed(3 DOWNTO 0);
-    SIGNAL num4u : signed(3 DOWNTO 0);
-    SIGNAL numoutur : signed(3 DOWNTO 0);
+    SIGNAL num3u : unsigned(3 DOWNTO 0);
+    SIGNAL num4u : unsigned(3 DOWNTO 0);
+    SIGNAL numoutur : unsigned(3 DOWNTO 0);
 
 BEGIN
-    num3u <= signed(num3);
-    num4u <= signed(num4);
+    num3u <= unsigned(num3);
+    num4u <= unsigned(num4);
     numoutr <= STD_LOGIC_VECTOR(numoutur);
     numoutur <= num3u - num4u;
 END Behavioral;

@@ -36,13 +36,13 @@ ENTITY sumador IS
 END sumador;
 
 ARCHITECTURE Behavioral OF sumador IS
-      SIGNAL num1u : unsigned(3 DOWNTO 0);
-      SIGNAL num2u : unsigned(3 DOWNTO 0);
-      SIGNAL numoutu : unsigned(3 DOWNTO 0);
+      SIGNAL num1u : signed(3 DOWNTO 0);
+      SIGNAL num2u : signed(3 DOWNTO 0);
+      SIGNAL numoutu : signed(3 DOWNTO 0);
 
 BEGIN
-      num1u <= unsigned(num1);
-      num2u <= unsigned(num2);
+      num1u <= signed(num1);
+      num2u <= signed(num2);
       numout <= STD_LOGIC_VECTOR(numoutu);
       numoutu <= num1u + num2u;
 END Behavioral;

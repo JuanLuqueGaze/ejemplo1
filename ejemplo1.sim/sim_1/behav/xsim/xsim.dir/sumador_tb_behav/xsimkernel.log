@@ -1,7 +1,4 @@
-Running: xsim.dir/sumador_tb_behav/xsimk.exe -simmode gui -wdb sumador_tb_behav.wdb -simrunnum 0 -socket 52007
+Running: xsim.dir/sumador_tb_behav/xsimk.exe -simmode gui -wdb sumador_tb_behav.wdb -simrunnum 0 -socket 51418
 Design successfully loaded
-Design Loading Memory Usage: 7204 KB (Peak: 7204 KB)
-Design Loading CPU Usage: 15 ms
-Simulation completed
-Simulation Memory Usage: 7624 KB (Peak: 7624 KB)
-Simulation CPU Usage: 46 ms
+Design Loading Memory Usage: 7248 KB (Peak: 7248 KB)
+Design Loading CPU Usage: 31 ms

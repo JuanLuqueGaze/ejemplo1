@@ -36,10 +36,12 @@ BEGIN
         num1 <= "0010";
         num2 <= "0101";
         WAIT FOR speriod;
-        num2 <= "1101";
+        num1 <= "1111";
+        num2 <= "0010";
         WAIT FOR speriod;
         num2 <= "1111";
         WAIT FOR speriod;
+        num1 <= "0100";
         num2 <= "0100";
         WAIT FOR speriod;
         FINISH;

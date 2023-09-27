@@ -1,7 +1,7 @@
-Running: xsim.dir/restador_tb_behav/xsimk.exe -simmode gui -wdb restador_tb_behav.wdb -simrunnum 0 -socket 52279
+Running: xsim.dir/restador_tb_behav/xsimk.exe -simmode gui -wdb restador_tb_behav.wdb -simrunnum 0 -socket 51387
 Design successfully loaded
-Design Loading Memory Usage: 7208 KB (Peak: 7208 KB)
-Design Loading CPU Usage: 61 ms
+Design Loading Memory Usage: 7252 KB (Peak: 7252 KB)
+Design Loading CPU Usage: 15 ms
 Simulation completed
-Simulation Memory Usage: 7624 KB (Peak: 7624 KB)
-Simulation CPU Usage: 61 ms
+Simulation Memory Usage: 7692 KB (Peak: 7692 KB)
+Simulation CPU Usage: 15 ms

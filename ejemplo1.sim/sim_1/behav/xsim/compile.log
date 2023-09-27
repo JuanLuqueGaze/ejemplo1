@@ -1,2 +1,4 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/juanl_00e1ytj/OneDrive/Escritorio/Sistemas Electronicos/ejemplo1/ejemplo1.srcs/sources_1/new/restador.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'restador'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/juanl_00e1ytj/OneDrive/Escritorio/Sistemas Electronicos/ejemplo1/ejemplo1.srcs/sources_1/new/sumador.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sumador'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/juanl_00e1ytj/OneDrive/Escritorio/Sistemas Electronicos/ejemplo1/ejemplo1.srcs/sim_1/new/sumador_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sumador_tb'
